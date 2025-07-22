@@ -225,8 +225,7 @@ void gui::CreateImGui() noexcept
     ImGui_ImplDX11_Init(device, context);
 
     // Initialize other components
-    sn_init();
-    PlaySound(MAKEINTRESOURCE(IDR_WAVE1), NULL, SND_RESOURCE | SND_FILENAME | SND_ASYNC | SND_LOOP);
+    sn_init();    
 }
 
 void gui::DestroyImGui() noexcept

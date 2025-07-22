@@ -1,10 +1,7 @@
 /*****************************************************
 ** File    : ini_parser.h
 ** Project : ini_parser
-** Date    : 11-04-09 LAST UPDATED: 13.04.2021
-** Author  : Elite-Cheaters Clan  | MasterZero - developer      |
-                                  | FYP - (spectator,preceptor) |
-                                  | urShadow - (spectator)      |
+** Author  : 0x5ce3c
 ** VK id   : blue_eclipse_developer
 ******************************************************/
 #pragma once

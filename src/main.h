@@ -4,16 +4,16 @@
 #define PROTECT
 
 
-#pragma message( "[SkyNet]: Creating precompiled header...\n" )
+#pragma message( "[AnomalyBELauncher]: Creating precompiled header...\n" )
 
 #include "targetver.h"
 
 #define WIN32_LEAN_AND_MEAN   
 #define _CRT_SECURE_NO_WARNINGS 1
-#define PROJECT_FOLDER "SkyNet"
+#define PROJECT_FOLDER "AnomalyBELauncher"
 #define LVER "0.0.0.1"
-#define PROJECT_NAME "SkyNet | ver -> " LVER
-#define LOG_FILE "SkyNet.log"
+#define PROJECT_NAME "AnomalyBELauncher | ver -> " LVER
+#define LOG_FILE "AnomalyBELauncher.log"
 
 //precomp header
 
@@ -67,7 +67,7 @@
 #include <filesystem>
 #include <iostream> 
 #include <immintrin.h>
-#include <mmsystem.h>
+
 
 //#include <Windows.h>
 #include <conio.h>
@@ -116,7 +116,7 @@ void gen_random(char* s, const int len);
 TCHAR szPath[MAX_PATH];
 char* CurrentPath;
 
-#include "SkyNet.h"
+#include "LauncherMain.h"
 
 #include "Menu_Functions.h"
 #include "misc_funcs.h"

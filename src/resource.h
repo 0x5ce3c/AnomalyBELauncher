@@ -2,8 +2,6 @@
 // Включаемый файл, созданный в Microsoft Visual C++.
 // Используется Resource.rc
 //
-#define IDR_WAVE1                       102
-#define IDR_WAVE2                       103
 #define IDI_ICON1                       116
 #define IDR_EXE1                        119
 
