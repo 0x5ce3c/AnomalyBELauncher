@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Menu_Functions.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="LauncherMain.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="cmds.cpp" />
+    <ClCompile Include="cmds_funcs.cpp" />
+    <ClCompile Include="misc_funcs.cpp" />
+    <ClCompile Include="console.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ImFuncs.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystemManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="math_stuff.cpp" />
+    <ClCompile Include="D3DImageImGui.cpp">
+      <Filter>Engine\background</Filter>
+    </ClCompile>
+    <ClCompile Include="Systeminfo.cpp" />
+    <ClCompile Include="gui.cpp" />
+    <ClCompile Include="tmp.cpp" />
+    <ClCompile Include="ThreadWrapper.cpp" />
+    <ClCompile Include="imGui\imgui.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_demo.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_draw.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_impl_dx11.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_tables.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_widgets.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_impl_win32.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_stdlib.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu_Functions.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="targetver.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts\itsmyfontforgocnet.h">
+      <Filter>Engine\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="LauncherMain.h" />
+    <ClInclude Include="cmds_funcs.h" />
+    <ClInclude Include="misc_funcs.h" />
+    <ClInclude Include="Fonts\imgui_fonts.h">
+      <Filter>Engine\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts\IconFontAwesome5.h">
+      <Filter>Engine\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="ini_parser.h">
+      <Filter>Engine\ini_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ImColor.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ImFuncs.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="math_stuff.h" />
+    <ClInclude Include="Systeminfo.h" />
+    <ClInclude Include="gui.h" />
+    <ClInclude Include="ThreadWrapper.hpp" />
+    <ClInclude Include="imGui\imconfig.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_impl_dx11.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_internal.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_rectpack.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_textedit.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_truetype.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_impl_win32.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_stdlib.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_image.h">
+      <Filter>Engine\background</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{ca7e104d-5c3a-410f-a589-a11ebe4fe90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resources">
+      <UniqueIdentifier>{ee8227ae-b1d1-404c-87a5-78fac0cf246c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Fonts">
+      <UniqueIdentifier>{cce72c47-d663-4a84-87ac-dacd9a19d4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ini_parser">
+      <UniqueIdentifier>{bd10257d-276f-4ae2-8efc-ba589b51b82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\imgui">
+      <UniqueIdentifier>{d06a7ed0-8e66-409e-b3cb-96acb087c7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\background">
+      <UniqueIdentifier>{d0197d90-8042-449d-a843-224b20002cdd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Engine\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="SkyNet_icon6464.ico">
+      <Filter>Engine\Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
